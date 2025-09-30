@@ -1,7 +1,6 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
-    margin: 0;
 }
 
 
@@ -32,9 +31,9 @@ body {
    width: 80px;
 }
 
-/****** Header Titre ******/
+/****** Titre et form ******/
 
-h1 {
+.title h1 {
     font-size: 22px;
     padding: 10px 0;
 }
@@ -43,15 +42,44 @@ p {
     margin-bottom: 30px;
 }
 
-
-/****** Form recherche ******/
-
-.recherche {
-    border-radius: 20px;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.1);
+.title {
+    margin: 20px 0 30px 0;
 }
 
+.recherche{
+    display: flex;
+    align-items: center;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    width: 377px;
+    height: 49px;
+    overflow: hidden;
+}
+
+.recherche i {
+    color: rgb(0, 0, 0);
+    background-color: #F2F2F2;
+    width: 50px;
+    height: 49px;
+    display: flex;                
+    align-items: center;          
+    justify-content: center;      
+}
+
+.recherche button {
+    background-color: #0065FC;
+    color: #f9f7f7;
+    border:#0065FC;
+    font-size: 18px;
+    padding: 15px 16px 15px 16px;
+}
+
+.recherche input[type=search]{
+    font-size: 18px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: none;
+}
 
 
 
