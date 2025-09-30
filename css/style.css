@@ -32,6 +32,8 @@ body {
    width: 80px;
 }
 
+/****** Header Titre ******/
+
 h1 {
     font-size: 22px;
     padding: 10px 0;
@@ -40,6 +42,20 @@ h1 {
 p {
     margin-bottom: 30px;
 }
+
+
+/****** Form recherche ******/
+
+.recherche {
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/****** menu navigation ******/
 
 nav {
     display: flex;
@@ -67,6 +83,8 @@ a {
 .section-title {
     font-size: 22px;
 }
+
+/****** Card ******/
 
 .card {
     background-color: white;
