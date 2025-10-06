@@ -441,7 +441,7 @@ a {
 .activites-card .card-txt {
    margin-bottom: 10px;
    box-sizing: border-box;
-   padding-left: 20px;
+   padding: 20px 19px 20px 19px;
 }
 
 /****** Footer ******/
