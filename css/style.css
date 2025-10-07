@@ -497,7 +497,7 @@ h3 {
     .main-content {
         padding: 0 50px 0 50px;
         display: flex;
-        gap: 30px;
+        gap: 35px;
     }
 
     .hebergements-and-populaires {
@@ -580,16 +580,53 @@ h3 {
 /* Small devices (phones, less than 768px) */
 @media screen and (max-width: 767.98px) {
 
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 768px;
+    height: 115px;
+    margin: 0;
+    }
+
     .nav-logo {
         padding: 30px;
     }
 
     .nav-links {
         display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
+        justify-content: space-around;
+        gap: 15px;
+        padding: 0;
+        max-width: 768px;
+        width: 100%;
+    }
+
+    nav a {
+        margin: 0;
+        gap: 15px;
+    }
+
+    .menu {
+        max-width: 768px;
+        width: 100%;
+        padding: 0 20px 0 20px;
+
     }
     
+    .cta {
+        padding-top: 0;
+        width: 50%;
+    }
+
     .cta:active {
         transform: scale(0.98);
         color:#0065FC;
@@ -609,13 +646,54 @@ h3 {
         border-bottom-left-radius: 15px;
     }
   
+
+    .filtres {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 758px;
+    height: 50px;
+    gap: 15px;
+    }
+
+    .hebergements-and-populaires {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 768px;
+    height: auto;
+    gap: 15px;
+    }
+
     .hebergements-cards {
        grid-template-columns: 1fr; /* 1 colonne */
     }
 
+    .populaires-cards {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .populaires-cards a {
+        display: contents;
+    }
+
+    .activites-card {
+        display: flex;
+        flex-direction: column;
+        max-width: 768px;
+        width: 100%;
+        padding: 20px;
+        gap: 20px;
+    }
+
    .footer-content {
-       flex-direction: column;
-       gap: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
     }
 
     
