@@ -23,7 +23,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    background-color: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 1);
+
 ;
 }
 
@@ -140,7 +141,9 @@ a {
     height: 49px;
     display: flex;                
     align-items: center;          
-    justify-content: center;      
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;      
 }
 
 .recherche button {
@@ -211,7 +214,7 @@ a {
 /****** infos ******/
 
 .info {
-    padding-top: 10px;
+    /*padding-top: 10px;*/
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -533,8 +536,8 @@ h3 {
     }
 
     .boutons-filtres {
-        gap: 0px;
-        justify-content: space-between;
+        gap: 15px;
+        justify-content: start;
         height: 50px;
     }
 
@@ -567,11 +570,11 @@ h3 {
     }
 
     .populaires-cards .card-title {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .populaires-cards .card-subtitle {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     /****** Activités Populaires ***********/
@@ -667,17 +670,9 @@ h3 {
         gap: 15px;
     }
 
-    /***** Titre et form ******/
-
-    .menu {
-        max-width: 768px;
-        width: 100%;
-        padding: 0 20px 0 20px;
-
-    }
-    
     .cta {
-        padding-bottom: 10px;
+        padding-bottom: 15px;
+        padding-top: 0;
         width: 50%;
         justify-content: center;
         
@@ -689,6 +684,16 @@ h3 {
         border-top: none;
     }
 
+
+    /***** Titre et form ******/
+
+    .menu {
+        max-width: 768px;
+        width: 100%;
+        padding: 0 20px 0 20px;
+
+    }
+    
     .recherche {
         overflow: visible;
     }
@@ -700,7 +705,8 @@ h3 {
     .recherche button {
         border-radius: 15px;
         width: 49px;
-        filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.25));
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
     }
     
     .recherche button i {
@@ -714,7 +720,8 @@ h3 {
 
     .boutons-filtres {
         flex-wrap: wrap;
-        gap: 10px;
+        column-gap: 10px;
+        row-gap: 20px;
         height: auto;
     }
 
@@ -750,9 +757,14 @@ h3 {
        gap: 15px;
     }
 
+    .hebergements-cards .card-subtitle {
+        font-size: 14px;
+    }
+
     #section-populaires {
         padding: 30px 20px;
         gap: 15px;
+        border-radius: 0%;
     }
 
     .populaires-cards {
