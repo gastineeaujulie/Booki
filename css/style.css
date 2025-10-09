@@ -28,19 +28,6 @@ body {
 ;
 }
 
-.main-content {
-    width: 100%;
-    max-width: 1340px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-    margin: auto;
-}
-
-
-
-
 
 /****** menu navigation ******/
 
@@ -95,7 +82,17 @@ a {
     text-decoration: none;
 }
 
+/****** Main content ******/
 
+.main-content {
+    width: 100%;
+    max-width: 1340px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin: auto;
+}
 
 /****** Titre et form ******/
 
@@ -513,14 +510,12 @@ h3 {
 
     .main-content {
         padding: 0 50px 0 50px;
-        display: flex;
         gap: 35px;
     }
 
     /****** filtres ******/
 
     .filtres {
-        display:flex;
         flex-direction: column;
         width: 100%;
         max-width: 668px;
@@ -581,7 +576,6 @@ h3 {
 
     .activites-populaires {
         max-width: 924px;
-        width: 100%;
     }
 
     .activites-card {
@@ -634,19 +628,15 @@ h3 {
     }
     
     .main-content {
-        display: flex;
-        flex-direction: column;
         padding: 0;
     }
 
     /****** menu navigation ******/
 
     header nav {
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
         max-width: 768px;
         height: 115px;
         margin: 0;
@@ -734,10 +724,7 @@ h3 {
     /****** Hebergements And Populaires ***********/
 
     .hebergements-and-populaires {
-        display: flex;
-        flex-direction: column;
         justify-content: center;
-        width: 100%;
         max-width: 768px;
         height: auto;
         gap: 15px;
@@ -798,14 +785,12 @@ h3 {
     /****** Footer ******/
 
    .footer-content {
-        display: flex;
         flex-direction: column;
         gap: 50px;
         padding: 30px;
     }
 
     .footer-items {
-        align-items: flex-start;
         padding: 0;
     }
 
