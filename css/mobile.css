@@ -161,6 +161,10 @@
 
     /****** Footer ******/
 
+    footer {
+        margin: 0;
+    }
+
    .footer-content {
         flex-direction: column;
         gap: 50px;

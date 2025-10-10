@@ -10,8 +10,7 @@
     }
 
     .main-content {
-        padding: 0 50px 0 50px;
-        gap: 35px;
+        padding: 0 50px;
     }
 
     /****** filtres ******/
@@ -101,7 +100,6 @@
 
     .footer-content {
         gap: 30px;
-        padding: 0 50px 0 50px;
         max-width: 924px;
         width: 100%;
     }

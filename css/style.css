@@ -25,6 +25,7 @@ body {
     flex-direction: column;
     gap: 30px;
     background: rgba(255, 255, 255, 1);
+    
 
 ;
 }
@@ -330,7 +331,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-    line-height: 1.5;
+    line-height: 100%;
 }
 
 .hebergements-cards .card-title {
@@ -343,6 +344,8 @@ a {
 .hebergements-cards .card-subtitle {
     margin: 0;
     font-size: 14px;
+    margin-bottom: 6px;
+    margin-top: 8px;
 }
 
 .hebergements-cards .card-rating {
@@ -391,7 +394,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-    line-height: 1.5;
+    line-height: 100%;
 }
 
 .populaires-cards .card-title {
@@ -403,6 +406,7 @@ a {
 .populaires-cards .card-subtitle {
     margin: 0;
     font-size: 14px;
+    margin-top: 8px;
 }
 
 .populaires-cards .card-rating {
@@ -472,6 +476,8 @@ footer {
     align-items: flex-start;
     max-height: 163px;
     height: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .footer-content {
@@ -481,6 +487,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 20px;
 }
 
 .footer-items {
@@ -489,7 +496,6 @@ footer {
     justify-content: center;
     align-items: flex-start;
     gap: 15px;
-    padding: 20px;
     max-height: 163px;
     height: 100%;
     flex: 1;
